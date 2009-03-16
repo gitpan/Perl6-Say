@@ -1,7 +1,7 @@
 package Perl6::Say::Auxiliary;
 #$Id: Auxiliary.pm 1213 2008-02-09 23:40:34Z jimk $
 # Contains test subroutines for distribution with Perl6::Say
-# As of:  February 10, 2008
+# As of:  March 16, 2009
 use strict;
 require Exporter;
 our @ISA       = qw(Exporter);

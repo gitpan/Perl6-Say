@@ -3,7 +3,7 @@ package Perl6::Say;
 use strict;
 use warnings;
 require 5.006_002;
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 use IO::Handle;
 use Scalar::Util 'openhandle';
 use Carp;

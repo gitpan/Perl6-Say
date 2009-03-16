@@ -48,3 +48,7 @@ Revision history for Perl extension Perl6::Say.
 
 0.12 Sat Feb  9 19:35:26 AST 2008
     - Provide documentation and examples on say() in Perl 5.10.
+
+0.13 Sun Mar 15 22:45:45 EDT 2009
+    - Regenerate to get latest META.yml format (per bug report from D.A.
+      Patrick:  https://rt.cpan.org/Public/Bug/Display.html?id=44102).
