@@ -3,7 +3,7 @@ package Perl6::Say;
 use strict;
 use warnings;
 require 5.006_002;
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 use IO::Handle;
 use Scalar::Util 'openhandle';
 use Carp;
@@ -42,6 +42,14 @@ use strict 'refs';
 =head1 NAME
 
 Perl6::Say - C<print()>, but no newline needed
+
+=head1 WARNING
+
+This module is B<deprecated>. If you're using perl 5.10 or later, you can say:
+
+  use feature 'say';
+
+to use the built-in C<say> function. See L<perlfunc/say> for details.
 
 =head1 SYNOPSIS
 
