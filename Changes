@@ -1,5 +1,11 @@
-#$Id: Changes 1344 2009-03-16 03:27:56Z jimk $
 Revision history for Perl extension Perl6::Say.
+
+0.16  2010-07-14
+    - New maintainer: Alexandr Ciornii
+    - Build.PL added
+    - Tests fixed
+
+-----------------
 
 0.01  Thu Mar 25 22:00:02 2004
 	- original version; created by h2xs 1.22 with options
@@ -58,8 +64,3 @@ Revision history for Perl extension Perl6::Say.
 
 0.15 Sun Mar 29 21:23:44 EDT 2009
     - Require 5.8, mainly to shut up CPAN test that is failing on 5.6.2.
-
-0.16 Fri Apr 30 22:13:09 PDT 2010
-    - Removing this distribution fron CPAN is not a good idea since there are applications
-      and modules depending on this module exisiting on CPAN. (Tatsuhiko Miyagawa)
-      See the thread http://www.nntp.perl.org/group/perl.module-authors/2010/04/msg8542.html

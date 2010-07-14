@@ -1,5 +1,4 @@
 package Perl6::Say;
-#$Id: 01-feature.pl 1207 2008-02-09 23:22:29Z jimk $
 use strict;
 use warnings;
 require 5.006_002;
@@ -42,14 +41,6 @@ use strict 'refs';
 =head1 NAME
 
 Perl6::Say - C<print()>, but no newline needed
-
-=head1 WARNING
-
-This module is B<deprecated>. If you're using perl 5.10 or later, you can say:
-
-  use feature 'say';
-
-to use the built-in C<say> function. See L<perlfunc/say> for details.
 
 =head1 SYNOPSIS
 
@@ -186,7 +177,7 @@ Damian Conway (damian@conway.org).
 
 =head2 MAINTAINER
 
-James E Keenan (jkeenan@cpan.org) (effective v0.06, July 2006).
+Alexandr Ciornii (alexchorny@gmail.com)
 
 =head1 ACKNOWLEDGMENTS
 
